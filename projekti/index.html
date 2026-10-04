@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Restaurants</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Student Restaurants</h1>
+    </header>
+
+    <main>
+      <section>
+        <h2>Find student restaurants in Finland</h2>
+        <p>Check today's and weekly menus.</p>
+
+        <h2>Restaurants</h2>
+
+        <div class="filters">
+          <button data-city="all">All</button>
+          <button data-city="Helsinki">Helsinki</button>
+          <button data-city="Espoo">Espoo</button>
+           <button data-city="Vantaa">Vantaa</button>
+        </div>
+
+        <div class="restaurant-list"></div>
+      </section>
+
+      <section>
+        <h2>Menu</h2>
+
+        <div class="menu-buttons">
+          <button id="daily-menu">Today's Menu</button>
+          <button id="weekly-menu">Weekly Menu</button>
+        </div>
+
+        <div id="menu-content">
+          <p>Select a restaurant and choose a menu.</p>
+        </div>
+      </section>
+
+      <section>
+        <h2>Contact Us</h2>
+        <p>Email: info@studentrestaurant.com</p>
+      </section>
+    </main>
+
+   <script type="module" src="js/main.js"></script>
+  </body>
+</html>
